@@ -10,11 +10,11 @@
 
 <body>
 
-  <!-- Accessible Portfolio Structure -->
-
+  <!-- Heading -->
   <h1 role="heading">Subrata Das</h1>
 
-  <nav role="navigation"> 
+  <!-- Navigation -->
+  <nav role="navigation">
     <ul role="list">
       <li role="listitem"><a href="#about">About</a></li>
       <li role="listitem"><a href="#skills">Skills</a></li>
@@ -22,25 +22,42 @@
     </ul>
   </nav>
 
-  <img
+  <!-- Image -->
+  <img 
     role="img"
     src="https://media.licdn.com/dms/image/v2/D5603AQHaB2dtOyOrAQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1731675364537?e=2147483647&v=beta&t=to1XVhFktQvQWuOy1oP-_-WkBRMZCIW2BguAJo8D4eY"
-    alt="Portrait of Subrata Das smiling" 
+    alt="Portrait of Subrata Das smiling"
     width="200">
 
-  <p id="about">
-    MCA'25 @ Heritage Institute of Technology | B.Sc in Computer Science | Aspiring Blockchain Developer | Learning DSA in Java
-  </p>
+  <!-- About Section -->
+  <section id="about">
+    <p>
+      MCA'25 @ Heritage Institute of Technology | B.Sc in Computer Science |
+      Aspiring Blockchain Developer | Learning DSA in Java
+    </p>
+  </section>
 
-  <!-- Required List Section -->
-  <h2 role="heading" id="skills">Skills</h2>
-  <ul role="list">
-    <li role="listitem">Java & Data Structures</li>
-    <li role="listitem">Blockchain Fundamentals</li>
-    <li role="listitem">Front-End Development (HTML, CSS, JS)</li>
-  </ul>
+  <!-- Skills List (Required List With 3 Items) -->
+  <section id="skills">
+    <h2 role="heading">Skills</h2>
+    <ul role="list">
+      <li role="listitem">Java & Data Structures</li>
+      <li role="listitem">Blockchain Fundamentals</li>
+      <li role="listitem">Front-End Development (HTML, CSS, JavaScript)</li>
+    </ul>
+  </section>
 
-  <script type="text/javascript" src="./script.js"></script>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 role="heading">Contact</h2>
+    <ul role="list">
+      <li role="listitem">Email: subrata@example.com</li>
+      <li role="listitem">LinkedIn: linkedin.com/in/subrata-das</li>
+      <li role="listitem">GitHub: github.com/subrata</li>
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
